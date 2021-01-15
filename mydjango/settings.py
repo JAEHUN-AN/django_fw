@@ -70,11 +70,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'mydjango.wsgi.application'
 
-
+#
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 import pymysql
-pymysql.version_info = (2, 0, 2, "final", 0)
+pymysql.version_info = (2, 0, 3, "final", 0)
 pymysql.install_as_MySQLdb()
 
 DATABASES = {
